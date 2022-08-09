@@ -1,0 +1,45 @@
+.top-ui {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.top-ui li {
+    float: left;
+}
+
+.top-ui li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 16;
+}
+
+.top-ui li a:hover {
+    background-color: #111;
+}
+
+.mt {
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.mt-unfinished {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.unfinished {
+    font-size: 72;
+}
